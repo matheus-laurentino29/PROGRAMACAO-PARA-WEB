@@ -28,6 +28,6 @@
             echo $carros . "<br>";
         }
     }else {
-        echo "Nenhum carros escolhido!<br/>";
+        echo "Nenhum carro escolhido!<br/>";
     }
 ?>
