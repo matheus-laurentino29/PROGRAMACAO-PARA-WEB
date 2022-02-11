@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div style="text-align: center;">
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div>
+
+    <form method="post" action="pessoa.php">
+
+        <fieldset>
+            
+            <br>
+            <div class="form"> 
+                <label>Nome</label>
+                <input type="text" name="nome" id="input1"> 
+            </div>
+
+            <div class="form"> 
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="input1"> 
+            </div>
+
+            <div class="form"> 
+                <label>RG</label>
+                <input type="text" name="rg" id="input1"> 
+            </div>
+
+            <div class="form"> 
+                <label>CPF</label>
+                <input type="text" name="cpf" id="input1"> 
+            </div>
+
+            <div class="form"> 
+                <label>Telefone</label>
+                <input type="text" name="telefone" id="input1"> 
+            </div>
+
+            <div class="form"> 
+                <label>Endereço</label>
+                <input type="text" name="endereco" id="input1">  
+            </div>
+
+            <br>
+            <hr>
+
+            <h3 style="text-align: center;">Quais são os seus Hobbes?</h3>
+
+                <label> Estudar: </label>
+                <input type = "checkbox" name = "hobbes[]" value="estudar">
+
+                <label> Ler Livros: </label>
+                <input type = "checkbox" name = "hobbes[]" value="ler">
+
+                <label> Malhar: </label>
+                <input type = "checkbox" name = "hobbes[]" value="malhar">
+
+                <label> Caminhar: </label>
+                <input type = "checkbox" name = "hobbes[]" value="caminhar">
+
+                <label> Assis. Séries: </label>
+                <input type = "checkbox" name = "hobbes[]" value="assistir">
+
+                <label> Turistar: </label>
+                <input type = "checkbox" name = "hobbes[]" value="turistar">
+            
+            <br>
+            <hr> 
+
+            <h3 style="text-align: center;">Quais são seus Carros favoritos?</h3>
+
+                <label> HB20: </label>
+                <input type = "checkbox" name = "carros[]" value="hb20">
+
+                <label> Onix: </label>
+                <input type = "checkbox" name = "carros[]" value="onix">
+
+                <label> Sandero: </label>
+                <input type = "checkbox" name = "carros[]" value="sandero">
+
+                <label> Siena: </label>
+                <input type = "checkbox" name = "carros[]" value="siena">
+
+                <label> Fiesta: </label>
+                <input type = "checkbox" name = "carros[]" value="fiesta">
+
+                <label> Celta: </label>
+                <input type = "checkbox" name = "carros[]" value="celta">
+            
+            <br>
+            <hr>
+            <br> 
+
+            <div class="button">
+                <button type="submit">Enviar Formulário</button>
+            </div>
+            
+        </fieldset>
+        
+    </form>
+
+</body>
+</html>
