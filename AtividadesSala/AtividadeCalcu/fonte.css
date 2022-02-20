@@ -1,0 +1,44 @@
+
+form {
+    margin: 0 auto;
+    width: 200px;
+    padding: 1em;    
+}
+
+fieldset{
+    border-radius: 1em; 
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+input {
+    font: 1em sans-serif;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+#input1{
+    width: 158px;
+}
+
+input:focus{
+    border-color: #000;
+}
+
+p{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+
